@@ -1,0 +1,11 @@
+{
+	"font_size": 12,
+	"font_face": "Mononoki",
+	/*"themed_title_bar": false,*/
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Brogrammer.sublime-theme",
+}

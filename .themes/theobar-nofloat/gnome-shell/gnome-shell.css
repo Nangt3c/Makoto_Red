@@ -1,0 +1,202 @@
+/*THEOBAR NO FLOAT */
+
+#panel #panelActivities.panel-button {
+  -natural-hpadding: 10px; }
+
+/* Panel color */
+
+  #panel {
+  background-color: #1a1b26;
+}
+
+#panel .panel-button#panelActivities {
+  background-image: url("assets/activities.svg");
+  background-position: center top;
+  background-size: auto; 
+  color: transparent;
+  background-color: black;
+  box-shadow: none;
+}
+#panel .panel-button#panelActivities > * {
+  width: 24px;
+}
+
+/* Switch button */
+.toggle-switch{
+  background-image: url("assets/toggle-on.svg");
+  background-color: #1a1b26;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px white;
+}
+
+.toggle-switch:checked{
+  background-image: url("assets/toggle-off.svg");
+  background-color: darkgray;
+}
+
+/* Overview */
+#overviewGroup {
+  background-color: #1a1b26;
+}
+
+.window-caption {
+  color: rgba(255, 255, 255, 0.897);
+  background-color: #bf4a51;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+.window-close {
+  background-image: url("assets/window-close-button.svg");
+}
+/* Right side of panel */
+
+Gjs_ui_panel_AggregateMenu.panel-button {
+	color: #000000;
+	background-color: rgba(188,46,55,1);
+	border-radius: 0px;
+}
+
+Gjs_ui_panel_AggregateMenu.panel-button:hover {
+  color: #000000;
+  background-color: rgba(188,46,55,1);
+  border-radius: 0px;
+}
+
+Gjs_ui_panel_AppMenuButton.panel-button {
+  color: #000000;
+  background-color: rgba(188,46,55,1);
+  border-radius: 0px;
+}
+
+/* Submenu buttons */
+
+.popup-sub-menu{
+  background: #bf4a51;
+  font-weight: bold;
+}
+
+.popup-menu-item:hover {
+  background: #bc2e37 !important;
+}
+
+.popup-menu-item:checked{
+background-color: #bc2e37 !important;
+  }
+
+.popup-menu-item:checked:active{
+  background-color: #bf4a51 !important;
+}
+
+.popup-menu-item:active{
+  background-color: #bc2e37 !important;
+  color: black;
+}
+
+/*Network manager*/
+
+StScrollView.nm-dialog-scroll-view {
+  background: #1a1b26;
+  border-color: white;
+  border: white;
+  border-radius: 10px;
+}
+
+StButton.modal-dialog-linked-button:first-child {
+  background: rgba(188,46,55,1);
+  color: white;
+  border-color: rgba(188,46,55,1)
+}
+
+/* Volume slider  */
+.slider {
+  -barlevel-active-background-color: rgba(188,46,55,1);
+  -barlevel-active-border-color: black;
+}
+
+StIcon.popup-menu-icon {
+  color: white;
+}
+
+
+/* Panel menus */
+.popup-menu .popup-menu-content, .candidate-popup-content, .modal-dialog 
+{
+  background-color: #1a1b26;
+  color: white;
+}
+
+
+/* Center Panel*/
+.message{
+  background-color: #bc2e37;
+  color: black;
+}
+
+.message-body {color: #161616}
+.message-media-control:insensitive{ color: rgba(0,0,0,0.3); }
+
+.message-media-control{ color: black; }
+
+.notification-banner{
+background-color: #1a1b26;
+color: white;
+  }
+
+.notification-button {
+  box-shadow: inset 0 0 0 0px transparent;
+  background-color: #bc2e37;
+  border-radius: 5px !important;
+  color: black;
+  margin: 6px !important;
+  }
+
+.message-body{ color: black; }
+.message-close-button{color: black; background-color: transparent;}
+.message-close-button:hover{
+  background-color: white;
+  border-radius: 16px;
+}
+
+.event-time {
+  color: #e1e1e1;
+}
+
+/* Day of month circle */
+
+.calendar .calendar-today {
+  font-weight: bold;
+  color: #ffffff !important;
+  background-color: rgba(188,46,55,1);
+  border: none;
+}
+
+.calendar .calendar-today:active {
+  background-color: rgba(188,46,55,1);
+  color: white !important;
+}
+
+.calendar .calendar-today:selected {
+  background-color: rgba(188,46,55,1);
+  color: white;
+}
+
+.events-button {
+  background-color: #1a1b26;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: #818181;
+}
+
+/* OSD */
+
+.osd-window{
+  color: rgba(188,46,55,1)
+}
+
+Gjs_ui_barLevel_BarLevel.level:insensitive {
+  -barlevel-active-background-color: rgba(188,46,55,1);
+  -barlevel-background-color: rgba(0, 0, 0, 0);
+}
+
+

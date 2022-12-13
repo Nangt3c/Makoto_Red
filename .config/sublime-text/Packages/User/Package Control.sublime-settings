@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"ayu",
+		"BlackBird-ColorScheme",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Package Control",
+		"Theme - Brogrammer",
+	],
+	"in_process_packages":
+	[
+	],
+}
